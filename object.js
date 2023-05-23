@@ -29,7 +29,7 @@ class Question {
   }
 
   correntAnswer(userChoice) {
-    if (userChoice === this.choice) {
+    if (userChoice === this.correctAnswer) {
       console.log(`Correct!`);
     } else {
       console.log(`${this.answer} Incorrect!`);
